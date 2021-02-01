@@ -1,0 +1,12 @@
+export const HOME = '/';
+export const GAME = '/game';
+export const RANDOM = '/random';
+export const TAGS = '/tags';
+export const INFO = '/info';
+export const TERMS = '/terms';
+export const PRIVACY = '/privacy';
+export const UPLOAD = '/upload';
+export const FAVORITE = '/favorite'
+export const ACCOUNT = '/account';
+export const SIGN_IN = '/signin';
+export const ACTION = '/action';

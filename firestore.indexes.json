@@ -1,0 +1,89 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "comment",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "post",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "update",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "comment",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "reply",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "update",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "comment",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "reply",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "update",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "game",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "ready",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "update",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "game",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "search",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "update",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "game",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "uploader",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "update",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
